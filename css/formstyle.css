@@ -1,0 +1,368 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+{
+    @font_face:"PixelOperator";
+    src: url (../fonts/PixelOperator.ttf);
+}
+
+
+body {
+    background-color: #fff;
+    margin-left: 75px;
+    font: lucida;
+
+}
+
+.container {
+    width: 970px;
+    background-color: #f2f2f2;
+    margin-top: 200px;
+    margin-left: 200px;
+    border: solid;
+    box-shadow: -4px -6px 8px 2px #808080,
+                8px 6px 12px #808080;
+    font-family: "PixelOperator", Monaco, monospace;
+    margin-bottom: 200px;
+    padding: 10px;
+    
+}
+
+input, textarea, select {
+    background-color: #fff;
+    padding: 0.4em 0.8em;
+    border: none;
+    font-family: "PixelOperator", Monaco, monospace;
+    margin-bottom: 200px;
+    font-size: 1em;
+    color: #888;
+    box-shadow: 1px 1px 0 #666;
+    margin: 0.5em;
+
+}
+
+textarea {
+    height: 200px
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: #ffecb3;
+    outline: 2px solid #ffc51a;
+}
+
+.inputerr:focus, .passerr:focus {
+    background-color: #ff9999;
+    outline: 2px solid #ff1a1a;
+}
+
+
+
+.textwrapper {
+    text-align: center; 
+}
+
+}
+
+.input {
+    margin: 10px 0;
+    
+}
+.password {
+    margin: 10px 0;
+}
+
+.buttonlabel {
+    text-align: center;
+
+}
+
+.wrapper {
+    text-align: center;
+    margin: 25px 10px 15px;
+
+    
+}
+
+.wrapper2 {
+    text-align: center;
+    margin: 25px 0 15px;
+    
+}
+
+.wrapper3 {
+    text-align: center;
+    
+}
+
+button {
+    background-color: #999999;
+    color: #f2f2f2;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: "PixelOperator", Monaco, monospace;
+    font-size: 18px;
+    border: none;
+    text-shadow: 1px 1px 0 #ffc51a;
+   
+}
+
+button:hover {
+    background-color: #cccccc;
+}
+
+button:focus {
+    border-radius: 25px;
+}
+
+button[type="submit"] {
+    background-color: #ffc51a;
+    text-shadow: 1px 1px 0 #999999;
+   
+
+}
+
+button[type="submit"]:hover {
+    background-color: #c0a659;
+}
+
+.lrg {
+    padding: 20px 40px;
+    border-radius: 75px;
+    font-size: 30px;
+
+}
+
+.sml {
+    padding: 8px 16px;
+    font-size: 12px;
+   
+}
+
+.select {
+    text-align: center; 
+    margin: 10px 0
+}
+
+.number {  
+ 
+    text-align: center;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #888;
+}
+
+input[type=range] {
+  width: 20%;
+  height: 13px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000;
+  background: #ffc51a;
+  border-radius: 25px;
+  border: 0px solid #000101;
+  margin: 20px 0 20px 380px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

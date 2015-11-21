@@ -1,0 +1,120 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Form Example</title>
+        <meta name="description" content="Form UI Kit">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/formstyle.css">
+	</head>
+
+	<body>
+		<form class="container">
+			<fieldset class="input">
+			
+				<label>Input</label>
+					<div class="textwrapper">
+						<div class="input">
+							<input type="text" placeholder="input" id="input">
+							
+							<input type="text" placeholder="input error" class="inputerr">
+
+							<input type="text" placeholder="input disabled" id="inputdis" disabled="disabled">
+
+						</div>
+
+						<div class="password">
+							<input type="password" placeholder="password" id="pass">
+							
+							<input type="" placeholder="password error" class="passerr">
+
+							<input type="password" placeholder="password disabed" disabled="disabled" id="passdis">
+						</div>
+
+						<div class="search">
+							<input class="search" type="search" placeholder="Search">
+						</div>
+						<div>
+							<textarea class="text area" placeholder="Text area"></textarea>
+						</div>
+					</div>
+			</fieldset>
+
+
+
+
+			<fieldset>
+				<label class="buttonlabel">Buttons</label>
+					<div class="wrapper">
+						<button type="button">Button</button>
+	            		<button type="submit">Submit</button>
+	            	</div>
+	            	<div class="wrapper2">
+		            	<button type="button" class="sml">Button</button>
+	            		<button type="submit" class="lrg">Submit</button>
+	            	</div>
+	            	
+	            	<div class="wrapper3">
+	            		<button type="button" disabled >Disabled</button>
+					</div>
+			</fieldset>
+
+
+			<fieldset>
+				<label>Select (Drop Down)</label>
+					<div class="select">
+						<select name="select">
+							<option value="default"> Default</option>
+							<option value="option"> Option</option>
+							<option value="another">  Another Option</option>
+							<option value="andanother"> And Another Option</option>
+						</select>
+					</div>
+
+				<label>Number Stepper</label>
+					<div class="number">	
+						<input type="number" name="quantity" min="1" max="5">
+					</div>
+
+				<label>Range Slider</label>
+					<div>
+						<input type="range" min="0" max="10">
+					</div>				
+			</fieldset>
+
+			<fieldset >
+				<label>Checkboxes</label>	
+						<div class="checkbox">
+							<ul>
+								<li>
+									<input type="checkbox" name="unchecked" value=""> <label>Unchecked</label>
+								</li>
+								<li>
+									<input type="checkbox" name="checked" value=""> <label>Checked</label>
+								</li>
+								<li>
+									<input type="checkbox" name="disabled" value="drama"> <label>Disabled</label>
+								</li>
+							</ul>
+						</div>
+
+				<label>Radio Buttons</label>
+					<div>
+						<ul>
+							<li>
+								<input type="radio" name="radio"  value="unchecked"> <label>Unchecked</label>
+							</li>
+							<li>	
+							<input type="radio" name="radio" value="checked"> <label>Checked</label>
+							<li>
+								<input type="radio" name="radio" value="disabled"> <label>Disabled</label>
+							</li>
+						</ul>		
+					</div>
+			</fieldset>
+		</form>
+	</body>
